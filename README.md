@@ -14,4 +14,4 @@ You can make packages from these files in both Lazarus and Delphi, but in Lazaru
 Decoding and encoding gif files use http://www.tolderlund.eu/delphi/gifimaged2010b.zip embedded in the supported unit gifencdec.pas.
 For decoding and encoding webp files it's necessary the dll libwebp.dll (see above).
 
-Lazwiccodec and Lazwicimage are delphi's conversion to lazarus, for use it in lazarus in windows. Souce code for these are not included.
+Lazwiccodec and Lazwicimage are delphi's conversion to lazarus, for use it in lazarus in windows. Source code for these are not included.
