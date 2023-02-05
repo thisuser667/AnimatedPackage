@@ -26,7 +26,7 @@ const
 
 implementation
 
-uses decodewebp124nodelay, encodewebp124nodelay;
+uses decodewebp124nodelay, encodewebp124nodelay, MovieImageAuxUnit;
 
 var
   Webphandle: THandle;
