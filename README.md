@@ -1,5 +1,5 @@
 # AnimatedPackage
-Delphi and Lazarus not windowed control for displaying all kind of images and utilities for Gif and Webp animated images. Some knowledge of any of these apps is necessary. Licenses and copyrights are those that Embarcadero, Lazarus, Microsoft or Google dispose for what I use in any case.
+Delphi and Lazarus not windowed control for displaying all kind of images and utilities for Gif and Webp animated images. Some knowledge of any of these apps is necessary. Licenses and copyrights are those that Embarcadero, Lazarus, Microsoft or Google dispose for what I use in any case. This one superseedes the old https://github.com/thisuser667/TWebpImage
 
 The control AnimatedNwBox (Nw = no window) descends from TGraphicControl. It displays, in Windows, wicimage supported static formats, and in Lazarus, jpeg, png and bmp files, and animates gif and webp images, both in Windows and Lazarus. 
 
