@@ -24,25 +24,12 @@ const
                              // it's version 1.2.4. sorry but incremental decoding and
                              // lower-level api are not fully documented for this version.
 
-function ErrorMessage(aCaption, aMsg: string; DlgType: TMsgDlgType;
-  Buttons: TMsgDlgButtons): Word;
-
 implementation
 
 uses decodewebp124nodelay, encodewebp124nodelay;
 
 var
   Webphandle: THandle;
-
-function ErrorMessage(aCaption, aMsg: string; DlgType: TMsgDlgType;
-  Buttons: TMsgDlgButtons): Word;
-begin
-  {$IFDEF FPC}
-  Result:= MessageDlg(aCaption, aMsg, DlgType, Buttons, '');
-  {$ELSE}
-  Result:= MessageDlg(aMsg, DlgType, Buttons, 0);
-  {$ENDIF}
-end;
 
 function GetWebpFuncAddress(var addr: Pointer; const name : PAnsiChar) : Boolean;
 begin
