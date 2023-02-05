@@ -9,10 +9,7 @@ unit AnimatedBox;
 interface
 
 uses
-   /// WARNING: THIS CAN'T BE INSTALLED AS A PACKAGE OR PACKAGE COMPONENT
-  ///  IN LAZARUS. IN LAZARUS JUST CREATE IT AT RUN TIME.
-
-  {$IFNDEF FPC}
+{$IFNDEF FPC}
   WinApi.Windows, Winapi.Messages, Winapi.WinCodec, System.SysUtils,
     System.AnsiStrings, Vcl.Graphics, System.Classes, System.Math,
     Vcl.ExtCtrls, System.Contnrs, Vcl.Forms, Vcl.Controls, Vcl.Clipbrd,
